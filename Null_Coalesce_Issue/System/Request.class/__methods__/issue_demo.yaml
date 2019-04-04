@@ -28,7 +28,7 @@ object:
       datatype: null coalescing
       priority: 0
       owner: 
-      default_value: ${/#input_field} || "default"
+      default_value: ${/#input_field} || default
       substitute: true
       message: create
       visibility: 

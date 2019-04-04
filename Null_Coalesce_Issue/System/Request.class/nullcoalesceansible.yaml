@@ -9,6 +9,6 @@ object:
     description: 
   fields:
   - nc_issue:
-      value: ${/#input_field} || "default"
+      value: ${/#input_field} || default
   - meth1:
       value: issue_demo
