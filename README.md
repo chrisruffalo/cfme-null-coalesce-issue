@@ -20,3 +20,7 @@ The simulation passes in a new value, ommit `input_field` to have it print the v
 Expected output would have `input_field` and `input_field2` the same value
 ![Ansible Output](img/ansible_output.png "Ansible Ouput")
 
+This is the output when no value is given in the simulation, both `input_field` and `input_field2` should have the same value
+![Ansible Output2](img/ansible_output2.png "Ansible Ouput2")
+
+
