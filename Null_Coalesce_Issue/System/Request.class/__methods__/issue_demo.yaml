@@ -48,7 +48,7 @@ object:
       datatype: string
       priority: 1
       owner: 
-      default_value: ${/#nc_issue}
+      default_value: ${#nc_issue}
       substitute: true
       message: create
       visibility: 
