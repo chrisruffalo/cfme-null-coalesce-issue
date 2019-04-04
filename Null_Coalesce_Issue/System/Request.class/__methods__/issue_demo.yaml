@@ -48,7 +48,7 @@ object:
       datatype: string
       priority: 1
       owner: 
-      default_value: "${/#input_field}"
+      default_value: ${/#nc_field}
       substitute: true
       message: create
       visibility: 
