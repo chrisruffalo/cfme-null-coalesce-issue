@@ -1,0 +1,60 @@
+---
+__domain__.yaml:
+  classes: 1
+  instances: 1
+  method_instances: 1
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2019-04-04 10:51:44.547672000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2019-04-04 10:51:44.547672000 Z
+    zone: *2
+    time: *3
+  size: 234
+  sha1: XFLQBPjVjFllk+Rpo8SzNpfIEI4=
+Null_Coalesce_Issue/System/__namespace__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2019-04-04 10:52:24.868339000 Z
+    zone: *2
+    time: *4
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2019-04-04 10:52:24.868339000 Z
+    zone: *2
+    time: *5
+  size: 145
+  sha1: rs4yeLg3wssLEk0drD1PflXqfCo=
+Null_Coalesce_Issue/System/Request.class/__class__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &6 2019-04-04 10:52:35.560174000 Z
+    zone: *2
+    time: *6
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &7 2019-04-04 10:59:32.676106000 Z
+    zone: *2
+    time: *7
+  size: 7984
+  sha1: dVy2/Ux7rkC+DCIuBCGQZMNU+mE=
+Null_Coalesce_Issue/System/Request.class/NullCoalesceAnsible.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &8 2019-04-04 10:52:35.734462000 Z
+    zone: *2
+    time: *8
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &9 2019-04-04 11:00:32.818850000 Z
+    zone: *2
+    time: *9
+  size: 244
+  sha1: aihvrFEFkURpU497nokgBqT5lJg=
+Null_Coalesce_Issue/System/Request.class/__methods__/issue_demo.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2019-04-04 10:58:07.583016000 Z
+    zone: *2
+    time: *10
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2019-04-04 10:58:07.594250000 Z
+    zone: *2
+    time: *11
+  size: 1279
+  sha1: sX4hiWmw2SmJG5FEB4LiiCJBMQQ=

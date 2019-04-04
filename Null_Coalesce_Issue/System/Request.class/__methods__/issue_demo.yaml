@@ -1,0 +1,63 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: issue_demo
+    display_name: ''
+    description: 
+    scope: instance
+    language: ruby
+    location: playbook
+    data: 
+    options:
+      :repository_id: '10000000000004'
+      :playbook_id: '10000000000007'
+      :credential_id: '10000000000006'
+      :vault_credential_id: ''
+      :verbosity: ''
+      :execution_ttl: ''
+      :hosts: localhost
+      :log_output: on_error
+      :become_enabled: false
+  inputs:
+  - field:
+      aetype: 
+      name: input_field
+      display_name: 
+      datatype: null coalescing
+      priority: 0
+      owner: 
+      default_value: ${/#input_field} || "default"
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: 
+      name: input_field2
+      display_name: 
+      datatype: string
+      priority: 1
+      owner: 
+      default_value: "${/#input_field}"
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
