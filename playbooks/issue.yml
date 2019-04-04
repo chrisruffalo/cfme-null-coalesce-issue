@@ -12,3 +12,7 @@
     debug:
       var: input_field 
 
+  - name: Debug Other Parameter Output
+    debug:
+      var: input_field2
+
